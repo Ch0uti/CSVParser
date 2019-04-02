@@ -2,5 +2,5 @@ import XCTest
 @testable import CSVParserTests
 
 XCTMain([
-     testCase(CSVParserTests.allTests),
+    testCase(CSVParserTests.allTests),
 ])

@@ -1,0 +1,15 @@
+# rules
+--enable isEmpty
+
+# format options
+--decimalgrouping none
+--hexgrouping none
+--header "Copyright © {year} ChouTi. All rights reserved."
+--importgrouping testable-bottom
+--indent 4
+--octalgrouping none
+--ranges nospace
+--self init-only
+
+# file options
+--exclude Submodules, Pods
