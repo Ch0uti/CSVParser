@@ -269,7 +269,7 @@ extension CSVParser {
    - Returns: the column
    */
   public subscript(key: String) -> [String]? {
-    guard let index = self.headers.index(of: key) else {
+    guard let index = self.headers.firstIndex(of: key) else {
       return nil
     }
     // must parse first

@@ -18,8 +18,8 @@ extension CSVParser {
   
   func parseWithQuotes() throws {
     var cursor = content.startIndex
-    var nextDelimiter = content.index(of: self.delimiter)
-    var nextLine = content.index(of: self.lineSeparator)
+    var nextDelimiter = content.firstIndex(of: self.delimiter)
+    var nextLine = content.firstIndex(of: self.lineSeparator)
     var row = [String]()
     while true && cursor != content.endIndex {
       
