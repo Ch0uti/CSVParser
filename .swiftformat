@@ -12,4 +12,4 @@
 --self init-only
 
 # file options
---exclude Submodules, Pods
+--exclude Package.swift, Submodules, Pods

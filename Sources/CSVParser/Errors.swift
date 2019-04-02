@@ -1,14 +1,8 @@
-//
-//  Errors.swift
-//  CSVParser
-//
-//  Created by Nero Zuo on 16/10/12.
-//
-//
+// Copyright © 2019 ChouTi. All rights reserved.
 
 import Foundation
 
 enum CSVParserError: Error {
-  case jsonObjTypeNotMatch
-  case containMismatchedQuotes
+    case jsonObjTypeNotMatch
+    case containMismatchedQuotes
 }

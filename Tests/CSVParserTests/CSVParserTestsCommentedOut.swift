@@ -1,12 +1,14 @@
-//import XCTest
-//@testable import CSVParser
+// Copyright © 2019 ChouTi. All rights reserved.
+
+// import XCTest
+// @testable import CSVParser
 //
-//class CSVParserTests: XCTestCase {
-//  
+// class CSVParserTests: XCTestCase {
+//
 //  func testExample() {
 //    do {
 //      let csv = try CSVParser(filePath: "/Users/Nero/Desktop/empty_fields.csv")
-//      
+//
 //      for line in csv {
 //        print(line)
 //      }
@@ -17,20 +19,20 @@
 //      for line in csv1 {
 //        print(line)
 //      }
-//  
+//
 //      let csv2 = try CSVParser(filePath: "/Users/Nero/Desktop/large2.csv")
-//      
+//
 //      for line in csv2 {
 //        print(line)
 //      }
-//      
+//
 //      print(csv2[4])
-//      
+//
 //    }catch let error {
 //      print(error)
 //    }
 //  }
-//  
+//
 //  func testParsePerformance() {
 //    measure {
 //      let _ = try! CSVParser(filePath: "/Users/Nero/Desktop/large.csv")
@@ -43,13 +45,13 @@
 //    let result = try! CSVParser.jsonToCSVString(jsonData: jsonData)
 //    print(result)
 //  }
-//  
-//  
 //
-//  
+//
+//
+//
 //  static var allTests : [(String, (CSVParserTests) -> () throws -> Void)] {
 //    return [
 //      ("testExample", testExample),
 //    ]
 //  }
-//}
+// }
